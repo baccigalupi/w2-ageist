@@ -2,6 +2,7 @@ age = (0..110).to_a.sample
 print "Age is #{age}. Age range: "
 if age < 1
 	print "baby"
+# like that you realized that we don't need the check the bottom of the conditional
 elsif age < 10
 	print "child"
 elsif age < 12
